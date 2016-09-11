@@ -1,0 +1,43 @@
+{
+    "author": "Safi Eddine",
+    "dependencies": {},
+    "keywords": [],
+    "name": "dzwatch",
+    "pebble": {
+        "displayName": "DZwatch",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/arcade.ttf",
+                    "name": "arcade_40",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "images/bg_color.png",
+                    "menuIcon": true,
+                    "name": "safi",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "31c13c6e-0abe-4135-b9dd-6867d1f1300a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
